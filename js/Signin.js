@@ -36,7 +36,7 @@ $('#Login').submit(function (e) {
         photoUrl = user.photoURL;
         emailVerified = user.emailVerified;
         console.log(name, email, emailVerified);
-        window.location.href = "Login.html";
+        window.location.href = "index.html";
       }
     })
     .catch((error) => {
